@@ -2,20 +2,13 @@ import React, { Component } from 'react'
 
 export default class Name extends Component {
     render() {
-        return (
+        return (<section>
             <div>
-                <name descprition ={[
-                    {
-                        text: 'delicious'
-                    
-                    },
-
-                    {
-                        text: ' the best food blog on the web.'
-                    }
-                ]} />
+                Delicious
+            </div>,
+            <div>
+                some text to make it work
             </div>
-       
+            </section>
         )
-    }
-}
+    }}
