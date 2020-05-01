@@ -5,9 +5,9 @@ export default class Name extends Component {
         return (<section>
             <div>
                 Delicious
-            </div>,
+            </div>
             <div>
-                some text to make it work
+                the best food blog on the web.
             </div>
             </section>
         )
