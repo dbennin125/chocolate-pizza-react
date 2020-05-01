@@ -9,11 +9,7 @@ export default class App extends Component {
       <div>
         <Header />
         <Title />
-        <BodyImage image={[
-                    {
-                        image: 'choco-pizza.png'
-                    }
-                  ]}/> 
+        <BodyImage />
         <TextBody />
         {/* <Recipe />
         <Author />

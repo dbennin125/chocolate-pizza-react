@@ -4,8 +4,7 @@ export default class BodyImage extends Component {
     render() {
         return (
             <div>
-               <img src={this.props.image}>
-                    </img>
+              <img src="choco-pizza.png" alt='whatever' />
             </div>
         )
     }
